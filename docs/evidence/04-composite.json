@@ -1,0 +1,44 @@
+{
+  "url": "http://localhost:5100/api/v1/products/P-101/summary",
+  "method": "GET",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "captured_at_utc": "2026-10-29T07:03:17.299127+00:00",
+  "duration_ms": 120,
+  "body": {
+    "product_id": "P-101",
+    "title": "Laptop Gamer XYZ",
+    "description": "Potencia para crear, jugar y trabajar. 16 GB RAM, SSD de 1 TB y pantalla de 15.6 pulgadas.",
+    "category": "Computación",
+    "price_usd": 1200,
+    "price_mxn": 22376.04,
+    "stock_status": "IN_STOCK",
+    "available_units": 15,
+    "warehouse": "Chihuahua · A-12",
+    "estimated_delivery_days": 3,
+    "currency_conversion_source": "Frankfurter External API",
+    "exchange_rate": 18.6467,
+    "exchange_rate_date": "2026-10-29",
+    "status": "SUCCESS",
+    "services": [
+      {
+        "service": "catalog",
+        "status": "SUCCESS",
+        "duration_ms": 4,
+        "error_code": null
+      },
+      {
+        "service": "inventory",
+        "status": "SUCCESS",
+        "duration_ms": 4,
+        "error_code": null
+      },
+      {
+        "service": "currency",
+        "status": "SUCCESS",
+        "duration_ms": 113,
+        "error_code": null
+      }
+    ]
+  }
+}
