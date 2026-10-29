@@ -1,0 +1,27 @@
+PASS: conversión decimal USD/MXN
+PASS: redondeo monetario a dos decimales
+PASS: dominio rechaza precio negativo
+PASS: dominio rechaza stock negativo
+PASS: las tres consultas empiezan antes de esperar resultados
+PASS: cancelación del cliente se propaga
+PASS: catálogo HTTP independiente
+PASS: inventario HTTP independiente
+PASS: composite HTTP consolida contrato y conversión
+PASS: alias del endpoint
+PASS: producto inexistente devuelve 404
+PASS: identificador inválido devuelve 400
+PASS: sin stock no promete entrega
+PASS: divisas 503 produce respuesta parcial sin precio inventado
+PASS: JSON externo malformado se controla
+PASS: tasa externa inválida se rechaza
+PASS: timeout externo limita la espera
+PASS: recuperación después del fallo
+PASS: inventario caído no se confunde con cero existencias
+PASS: dashboard se sirve desde gateway
+PASS: cabeceras de seguridad del dashboard
+PASS: interfaz usa textContent para datos externos
+PASS: catálogo caído devuelve error 502 o 504 según conexión
+PASS: catálogo HTTP 503 se traduce a 502
+PASS: timeout del catálogo devuelve 504
+PASS: catálogo con identificador distinto se rechaza
+RESULT: 26 verificaciones satisfactorias; 0 fallos.
