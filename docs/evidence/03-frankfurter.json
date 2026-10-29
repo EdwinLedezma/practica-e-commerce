@@ -1,0 +1,14 @@
+{
+  "url": "https://api.frankfurter.dev/v2/rate/USD/MXN",
+  "method": "GET",
+  "status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "captured_at_utc": "2026-10-29T07:03:17.164045+00:00",
+  "duration_ms": 529,
+  "body": {
+    "date": "2026-10-29",
+    "base": "USD",
+    "quote": "MXN",
+    "rate": 18.6467
+  }
+}

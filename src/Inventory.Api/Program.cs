@@ -1,0 +1,12 @@
+using Inventory.Application;
+using Inventory.Infrastructure;
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddProblemDetails();
+builder.Services.AddSingleton<IStockRepository, DemoStockRepository>();
+builder.Services.AddScoped<InventoryQuery>();
+var app = builder.Build();
+app.UseExceptionHandler();
+app.MapControllers();
+app.MapGet("/health", () => Results.Ok(new { status = "healthy", service = "inventory" }));
+app.Run();

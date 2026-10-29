@@ -1,0 +1,16 @@
+### Catálogo
+GET http://localhost:5101/microservices/products/P-101
+### Inventario
+GET http://localhost:5102/microservices/inventory/P-101
+### Frankfurter externo
+GET https://api.frankfurter.dev/v2/rate/USD/MXN
+### Composite
+GET http://localhost:5100/api/v1/products/P-101/summary
+### Alias del enunciado
+GET http://localhost:5100/api/v1/product-summary/P-101
+### Sin existencias
+GET http://localhost:5100/api/v1/products/P-103/summary
+### No existe
+GET http://localhost:5100/api/v1/products/P-999/summary
+### Entrada inválida
+GET http://localhost:5100/api/v1/products/incorrecto/summary

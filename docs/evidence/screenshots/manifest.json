@@ -1,0 +1,38 @@
+[
+  {
+    "file": "05-dashboard-P101.png",
+    "sha256": "fb4f1d22177ae58c0087a315ca7662c156ddd83a260e97bcee68d84b2ec73f01",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 5. Vista principal del dashboard en localhost:5100. El producto P-101 muestra 1200.00 USD, 22375.56 MXN, 15 unidades y entrega estimada de tres días hábiles."
+  },
+  {
+    "file": "06-composite-P101.png",
+    "sha256": "b025ac55e49e7567c803b5aadc04fc4624405ab76c91dcc7dc9bc714f5700b76",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 6. Respuesta compuesta de P-101 en la interfaz. Las tres fuentes aparecen disponibles y el JSON muestra SUCCESS, tasa 18.6463 y fecha de referencia 2026-10-29."
+  },
+  {
+    "file": "07-dashboard-P102.png",
+    "sha256": "5bd128e486be5032982af25fbbe1e4a9970825da999e2c264eb2f66a7490251d",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 7. Consulta del producto P-102. Audífonos Studio muestra precio de 1594.26 MXN, cuatro unidades disponibles y entrega estimada de dos días hábiles."
+  },
+  {
+    "file": "08-dashboard-P103.png",
+    "sha256": "1539f38c9debec6d5775b472b95cd3b6a5e9823b0c47f08e6e5f2b3c85837359",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 8. Consulta del producto P-103 sin existencias. La interfaz muestra cero unidades y entrega no disponible; no presenta una promesa de envío sin stock."
+  },
+  {
+    "file": "09-composite-P103.png",
+    "sha256": "5dda3ebcfacf89abb122b61a4489e56ce1767fb47a9aefe3cdbe83f140aaf98d",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 9. JSON consolidado del producto P-103. stock_status es OUT_OF_STOCK, available_units es 0 y estimated_delivery_days es null. SUCCESS indica que las fuentes respondieron correctamente."
+  },
+  {
+    "file": "10-producto-inexistente-P999.png",
+    "sha256": "af2694ffade6789786b1d827971e1f4216afc5fad281097e21bac675f3a4b821",
+    "source": "Captura proporcionada por el alumno en el chat",
+    "caption": "Figura 10. Manejo del producto inexistente P-999. Se muestra el mensaje de validación, HTTP 404 y Problem Details con código NOT_FOUND. La interfaz no conserva los datos del producto anterior."
+  }
+]

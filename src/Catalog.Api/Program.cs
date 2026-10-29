@@ -1,0 +1,12 @@
+using Catalog.Application;
+using Catalog.Infrastructure;
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddProblemDetails();
+builder.Services.AddSingleton<IProductRepository, DemoProductRepository>();
+builder.Services.AddScoped<ProductQuery>();
+var app = builder.Build();
+app.UseExceptionHandler();
+app.MapControllers();
+app.MapGet("/health", () => Results.Ok(new { status = "healthy", service = "catalog" }));
+app.Run();
