@@ -91,6 +91,6 @@ Se preservan commits descriptivos y PR para documentar la práctica individual. 
 
 ## Reporte y evidencia
 
-El reporte Word y PDF se guarda en `docs/report/`. Las respuestas reales incluyen URL, HTTP, fecha UTC, duración y cuerpo en `docs/evidence/`. La sección de evidencias identifica cualquier captura visual pendiente; esos registros no se presentan como capturas de Postman o del navegador. El grupo no fue proporcionado y figura como pendiente de completar en la portada.
+El reporte Word y PDF se guarda en `docs/report/`. Las respuestas reales incluyen URL, HTTP, fecha UTC, duración y cuerpo en `docs/evidence/`. El reporte incorpora seis capturas proporcionadas por el alumno, conservadas en `docs/evidence/screenshots/`, que muestran el dashboard, las respuestas consolidadas, productos con y sin existencias y el error 404. Los registros HTTP individuales se identifican por separado: no se presentan como capturas de Postman o del navegador. Se conservaron los ajustes de portada e índice realizados por el alumno.
 
 Fuente del servicio externo: [documentación oficial de Frankfurter](https://frankfurter.dev/).
