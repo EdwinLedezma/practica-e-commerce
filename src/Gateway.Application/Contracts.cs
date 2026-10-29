@@ -1,5 +1,6 @@
 using Gateway.Domain;
 namespace Gateway.Application;
+
 public interface IProductClient { Task<ProductSnapshot> GetAsync(string id, CancellationToken ct); }
 public interface IInventoryClient { Task<StockSnapshot> GetAsync(string id, CancellationToken ct); }
 public interface IExchangeRateClient { Task<ExchangeRate> GetAsync(CancellationToken ct); }

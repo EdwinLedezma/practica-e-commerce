@@ -1,4 +1,5 @@
 namespace Gateway.Domain;
+
 public sealed record ProductSnapshot(string Id, string Name, string Description, string Category, decimal PriceUsd);
 public sealed record StockSnapshot(string ProductId, int AvailableUnits, string Warehouse, int EstimatedDeliveryDays);
 public sealed record ExchangeRate(DateOnly Date, string Base, string Quote, decimal Rate);

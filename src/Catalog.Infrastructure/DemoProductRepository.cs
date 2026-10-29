@@ -1,6 +1,7 @@
 using Catalog.Application;
 using Catalog.Domain;
 namespace Catalog.Infrastructure;
+
 public sealed class DemoProductRepository : IProductRepository
 {
     private static readonly Dictionary<string, Product> Products = new(StringComparer.Ordinal)

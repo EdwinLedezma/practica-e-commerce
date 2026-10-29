@@ -1,4 +1,5 @@
 namespace Inventory.Domain;
+
 public sealed record Stock
 {
     public string ProductId { get; }
@@ -11,6 +12,6 @@ public sealed record Stock
         ArgumentException.ThrowIfNullOrWhiteSpace(warehouse);
         if (availableUnits < 0) throw new ArgumentOutOfRangeException(nameof(availableUnits));
         if (estimatedDeliveryDays < 0) throw new ArgumentOutOfRangeException(nameof(estimatedDeliveryDays));
-        ProductId=productId; AvailableUnits=availableUnits; Warehouse=warehouse; EstimatedDeliveryDays=estimatedDeliveryDays;
+        ProductId = productId; AvailableUnits = availableUnits; Warehouse = warehouse; EstimatedDeliveryDays = estimatedDeliveryDays;
     }
 }

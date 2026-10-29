@@ -1,4 +1,5 @@
 namespace Catalog.Domain;
+
 public sealed record Product
 {
     public string Id { get; }
@@ -11,6 +12,6 @@ public sealed record Product
         ArgumentException.ThrowIfNullOrWhiteSpace(id);
         ArgumentException.ThrowIfNullOrWhiteSpace(name);
         if (priceUsd < 0 || priceUsd > 1_000_000) throw new ArgumentOutOfRangeException(nameof(priceUsd));
-        Id=id; Name=name; Description=description; Category=category; PriceUsd=priceUsd;
+        Id = id; Name = name; Description = description; Category = category; PriceUsd = priceUsd;
     }
 }
