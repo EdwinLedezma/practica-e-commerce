@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../Gateway.Domain/Gateway.Domain.csproj" /></ItemGroup></Project>
